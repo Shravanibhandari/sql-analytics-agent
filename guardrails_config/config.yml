@@ -1,0 +1,7 @@
+# NeMo Guardrails config. The input rail runs a Python action (see app/guardrails.py),
+# so no LLM is needed for the safety check.
+models: []
+rails:
+  input:
+    flows:
+      - check user input

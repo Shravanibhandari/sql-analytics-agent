@@ -1,0 +1,8 @@
+define bot refuse unsafe input
+  "I can't process that request because it looks unsafe."
+
+define flow check user input
+  $allowed = execute check_input_action(text=$user_message)
+  if not $allowed
+    bot refuse unsafe input
+    stop
