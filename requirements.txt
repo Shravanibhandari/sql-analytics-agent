@@ -1,0 +1,11 @@
+langgraph
+langchain-groq
+sqlalchemy
+sqlglot
+sqlparse
+nemoguardrails
+streamlit
+plotly
+pandas
+python-dotenv
+pytest
